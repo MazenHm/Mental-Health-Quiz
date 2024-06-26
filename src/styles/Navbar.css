@@ -1,0 +1,25 @@
+.nav-p {
+  width: 100% !important;
+  height: 40px;
+  background-color: #002868;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 50%;
+}
+
+.nav-it {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.nav-it h1,
+.nav-it i {
+  font-size: 15px;
+  color: white;
+  margin: 0;
+  line-height: 1.5;
+  cursor: pointer;
+}

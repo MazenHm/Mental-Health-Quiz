@@ -1,0 +1,54 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center; /* Optional: Center the content */
+  background-color: #002868; /* Optional: Set a background color */
+  height: 7rem; /* Optional: Add padding */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.pg-bar {
+  background-color: #565dda; /* Background color for the progress bar itself */
+  height: 15px;
+  width: 40rem;
+  border-radius: 25px;
+}
+
+.pg-bar-mov {
+  background-color: #fcd116; /* Progress color within the bar */
+  height: 100%; /* Fills the entire height of the .pg-bar element */
+  border-radius: inherit; /* Inherit border-radius from .pg-bar */
+  transition: width 0.3s ease-in-out; /* Smooth transition for progress animation */
+}
+
+.c-btn {
+  color: #565dda;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-style: none;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .pg-bar {
+    width: 20rem;
+  }
+  .c-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}

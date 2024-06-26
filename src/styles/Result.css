@@ -1,0 +1,28 @@
+.r-title {
+  font-size: 3rem;
+  line-height: 1.08;
+  font-weight: 700;
+  color: #002868;
+  margin-top: 5rem;
+  max-width: 44rem;
+  text-align: center;
+}
+
+.r-paragraph {
+  font-size: 1.125rem;
+  line-height: 1.44;
+  color: #002868;
+  text-align: center;
+  max-width: 44rem;
+  margin-top: 1rem;
+}
+.r-btn {
+  margin-top: 1rem;
+  color: white;
+  background-color: #565dda;
+  padding: 15px 30px;
+  border-radius: 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-style: none;
+}

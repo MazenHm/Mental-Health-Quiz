@@ -1,0 +1,53 @@
+.shapes-wrapper {
+  position: relative !important;
+  width: 100% !important;
+  height: 100vh !important; /* Ensure the wrapper takes the full height of the viewport */
+  overflow: hidden !important; /* Hide any overflow from the shapes */
+  pointer-events: none !important; /* Prevent interactions with shapes if not needed */
+
+}
+
+.shape1 {
+  position: absolute;
+  bottom: 40rem;
+  left: -55px;
+  background-color: #565dda;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+
+.shape2 {
+  position: absolute;
+  bottom: 19rem;
+  left: -37rem;
+  width: 54rem;
+  height: 28rem;
+  border-radius: 50%;
+}
+
+.shape3 {
+  position: absolute;
+  bottom: 20rem;
+  right: -27rem;
+  width: 54rem;
+  height: 28rem;
+  border-radius: 50%;
+  transform: scaleX(-1);
+}
+
+.shape4 {
+  position: absolute;
+  bottom: 44rem;
+  right: -55px;
+  background-color: #fcd116;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+@media (max-width:768px){
+  .shapes-wrapper{
+    display: none;
+  }
+}

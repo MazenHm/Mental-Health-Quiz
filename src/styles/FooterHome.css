@@ -1,0 +1,24 @@
+.footer-home {
+  width: 100%;
+  background-color: #002868;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+  padding-top: 25px;
+}
+.footer-home h3 {
+  font-size: 17px;
+  color: white;
+  margin: 0;
+  line-height: 1.5;
+  cursor: pointer;
+  text-align: right;
+}
+
+.footer-home i {
+  color: white;
+}

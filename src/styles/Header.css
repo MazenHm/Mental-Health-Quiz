@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.text-brand {
+  color: #565dda;
+  font-size: 0.875rem;
+  line-height: 1.14;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 4px 7px;
+    margin-right: 9px;
+  }
+  .text-brand {
+    font-size: 0.775rem;
+  }
+  .logo2 {
+    height: 50px;
+    width: 70px;
+  }
+  .logo1 {
+    height: 70px;
+    width: 70px;
+  }
+}

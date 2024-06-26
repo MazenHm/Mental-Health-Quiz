@@ -1,0 +1,40 @@
+.nav-sec {
+  width: 100%;
+  height: 6rem;
+  box-shadow: 0 4px 34px -17px #0a2964;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 190px;
+}
+
+.nav-sec h1,
+i {
+  font-size: 17px;
+  color: #002868;
+  margin: 0;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-p {
+    padding-right: 15px;
+  }
+  .nav-it {
+    gap: 2rem;
+  }
+  .nav-it h1 {
+    font-size: 12px;
+  }
+  .fa-search,
+  .fa-envelope {
+    font-size: 12px;
+  }
+  .nav-sec {
+    padding: 0;
+    height: 5rem;
+  }
+  .nav-sec h1,i {
+    font-size: 10px;
+  }
+}
